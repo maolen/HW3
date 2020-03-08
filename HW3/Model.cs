@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace HW3.Step
+namespace HW3
 {
     public class Model
     {
@@ -10,5 +10,7 @@ namespace HW3.Step
         public string Address { get; set; }
         public bool IsMale { get; set; }
         public DateTime BirthDate { get; set; }
+        public string Email { get; internal set; }
+        public string PhoneNumber { get; internal set; }
     }
 }
